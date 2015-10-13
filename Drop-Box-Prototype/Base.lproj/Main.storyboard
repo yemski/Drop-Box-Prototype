@@ -155,10 +155,10 @@
             </objects>
             <point key="canvasLocation" x="2140" y="1326"/>
         </scene>
-        <!--View Controller-->
+        <!--Welcome2 View Controller-->
         <scene sceneID="CTY-Gd-HYu">
             <objects>
-                <viewController id="eaP-KP-E0z" sceneMemberID="viewController">
+                <viewController id="eaP-KP-E0z" customClass="Welcome2ViewController" customModule="Drop_Box_Prototype" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="tAa-5o-OXj">
                         <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -184,6 +184,7 @@
                                     <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
+                                    <action selector="upButton2:" destination="eaP-KP-E0z" eventType="touchUpInside" id="lEj-88-CzY"/>
                                     <segue destination="tjA-UC-CSC" kind="push" id="1YS-EN-VEw"/>
                                 </connections>
                             </button>
@@ -727,7 +728,6 @@
         <!--Settings-->
         <scene sceneID="Th6-Nm-MrP">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="HGE-nA-k9R" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" navigationBarHidden="YES" id="3YX-S7-STN" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Settings" image="settings_tab" id="Jwa-Hm-YS7"/>
                     <toolbarItems/>
@@ -740,6 +740,7 @@
                         <segue destination="Oai-6s-eYC" kind="relationship" relationship="rootViewController" id="Vty-RO-mUE"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="HGE-nA-k9R" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="5600" y="1148"/>
         </scene>
@@ -946,7 +947,6 @@
         <!--Settings-->
         <scene sceneID="rsY-f0-DWw">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="buN-4K-k1M" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="jCU-xh-RYa" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Settings" image="settings_tab" id="Zck-Kx-fWS"/>
                     <toolbarItems/>
@@ -959,6 +959,7 @@
                         <segue destination="L5g-tJ-pCa" kind="relationship" relationship="rootViewController" id="RKD-ui-db5"/>
                     </connections>
                 </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="buN-4K-k1M" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2848" y="2280"/>
         </scene>

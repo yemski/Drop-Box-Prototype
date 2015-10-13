@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		1A5136161BCCA2FE00E070D0 /* WelcomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5136151BCCA2FE00E070D0 /* WelcomeViewController.swift */; };
+		1A5136181BCCAC3F00E070D0 /* Welcome2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1A5136171BCCAC3F00E070D0 /* Welcome2ViewController.swift */; };
 		1AAE2DE81BC77CC000C64879 /* CreateAccountRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAE2DE71BC77CC000C64879 /* CreateAccountRootViewController.swift */; };
 		1AAE2DEA1BC77D9300C64879 /* SignInRootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAE2DE91BC77D9300C64879 /* SignInRootViewController.swift */; };
 		1AAE2DEC1BC79CA000C64879 /* Scroll1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1AAE2DEB1BC79CA000C64879 /* Scroll1ViewController.swift */; };
@@ -31,6 +32,7 @@
 
 /* Begin PBXFileReference section */
 		1A5136151BCCA2FE00E070D0 /* WelcomeViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WelcomeViewController.swift; sourceTree = "<group>"; };
+		1A5136171BCCAC3F00E070D0 /* Welcome2ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Welcome2ViewController.swift; sourceTree = "<group>"; };
 		1AAE2DE71BC77CC000C64879 /* CreateAccountRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateAccountRootViewController.swift; sourceTree = "<group>"; };
 		1AAE2DE91BC77D9300C64879 /* SignInRootViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignInRootViewController.swift; sourceTree = "<group>"; };
 		1AAE2DEB1BC79CA000C64879 /* Scroll1ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Scroll1ViewController.swift; sourceTree = "<group>"; };
@@ -90,6 +92,7 @@
 				1AD28A871BC62BA100B01835 /* AppDelegate.swift */,
 				1AD28A891BC62BA100B01835 /* ViewController.swift */,
 				1AD28A8B1BC62BA100B01835 /* Main.storyboard */,
+				1A5136171BCCAC3F00E070D0 /* Welcome2ViewController.swift */,
 				1A5136151BCCA2FE00E070D0 /* WelcomeViewController.swift */,
 				1AAE2DEB1BC79CA000C64879 /* Scroll1ViewController.swift */,
 				1AD28A8E1BC62BA100B01835 /* Images.xcassets */,
@@ -229,6 +232,7 @@
 				1AAE2DE81BC77CC000C64879 /* CreateAccountRootViewController.swift in Sources */,
 				1A5136161BCCA2FE00E070D0 /* WelcomeViewController.swift in Sources */,
 				1AD28A8A1BC62BA100B01835 /* ViewController.swift in Sources */,
+				1A5136181BCCAC3F00E070D0 /* Welcome2ViewController.swift in Sources */,
 				1AD28A881BC62BA100B01835 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
