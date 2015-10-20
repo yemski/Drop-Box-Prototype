@@ -1,4 +1,4 @@
-# Drop-Box-Prototype - Assignemnt 1
+# Drop-Box-Prototype - Assignment 1
 
 All required stories completed
 
